@@ -1,0 +1,33 @@
+{
+    "Courses": [
+    {
+        "CourseTitle": "Intro to Programming using Javascript"
+    }],
+
+    "Summary": [ 
+    {
+        "Session1_Summary": "test",
+        "Session2_Summary": "test",
+        "Session3_Summary": "test",
+        "Session4_Summary": "test",
+        "Session5_Summary": "test"
+    }],
+
+    "Vocab_Session1": [
+    { "Term": "test", "Deffinition": "test" },
+    { "Term": "test", "Deffinition": "test" },
+    { "Term": "test", "Deffinition": "test" },
+    { "Term": "test", "Deffinition": "test" },
+    { "Term": "test", "Deffinition": "test" },
+    { "Term": "test", "Deffinition": "test" }
+],
+
+    "SessionLink": [
+    {
+        "Session1_Link": "test",
+        "Session2_Link": "test",
+        "Session3_Link": "test",
+        "Session4_Link": "test",
+        "Session5_Link": "test"
+    }] 
+}

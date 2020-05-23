@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 // Elements need to be resized
 // Implement JSON Support for multiple courses
 // Redo grid breakpoints
+// Table is created incorectly, make it table row not table body
 
 // --- Theming ---
 
@@ -120,7 +121,7 @@ function EOLPage() {
             <TitleText text="Robert Walling" />
             <TitleText text="Class of 2021" />
             <TitleText text="Evidence of Learning" />
-            <TitleText text="Intro to Programming Using Javascript" />
+            <TitleText text="Evidence of Learning Page Creation" />
           </div>
 
           <PaddedDivider />
@@ -151,9 +152,13 @@ function EOLPage() {
                     <PaperTitle text="Week Two Summary" />
 
                     <SummaryText
-                      text="Session 2 of Intro to Programming using Javascript went over Primitive Datatypes, and some of the different math functions that you can use in your program.
-                    Primitive Datatypes are the types of data that can be stored and used in your program, for example, a number would be considered an integer. There are many different datatypes, used to make sure all forms of data can be used in our websites.
-                    Datatypes include numbers, letters, bits, bytes, and many more. With datatypes such as integers, which hold number values you can also apply function to them to change them." />
+                      text="For the second week of my Evidence of Learning website I focused on cleaning code, and getting it to as high of a quality as
+                      possible. During the first week to reach a stable working build I needed to cut corners and use questionable coding practices, so
+                      the first half of my week was spent correcting these issues and updating the website. Some of the changes I made were moving from
+                      using CSS Flexbox, to the Material-UI Grid component and linking text and table directly into the website. After the cleanup was
+                      finished I decided it was time to start to expand the website, and attempt to add in multiple pages showing what I have done over
+                      our Distance Learning period. Because of time limits I was not able to complete this, I planned on passing a JSON file into the
+                      website and having it generate a page but I was not able to finish this by the due date." />
 
                   </Route>
 
@@ -161,9 +166,11 @@ function EOLPage() {
                     <PaperTitle text="Week One Summary" />
 
                     <SummaryText
-                      text="Session 1 of Intro to Programming using Javascript went over the basics of the javascript language, and how to apply it to your HTML applications. Javascript can be used to make your websites reactive and dynamic.
-                    In javascript you can have your website execute custom code, making them different for every user, or to make your website more visually complex.
-                    Javascript can be done inline or in an external sheet. Javascript powers many of the webs most important website, and can be used as a frontend tool, and as a backend." />
+                      text="The First Week of creating my new Evidence of Learning website revolved around learning the basics of React and creating the
+                      first draft of my website. I was not able to create as much of the website as I would of liked to as I was struggling through
+                      multiple learning curves. Though the first week was very frustrating it was the most important and beneficial.
+                      There are many parts of it that can be done better and will be in the future but being able to have a stable working version of
+                      the website is what is most important upfront." />
 
                   </Route>
                 </Switch>
@@ -181,21 +188,17 @@ function EOLPage() {
                         <Table size="small">
                           <TableHead>
                             <TableRow>
-                              <TableCell> Term </TableCell>
-                              <TableCell> Defintion </TableCell>
+                              <TableCell> Component </TableCell>
+                              <TableCell> A function that can be simplily replicated with predefined elements </TableCell>
                             </TableRow>
                           </TableHead>
                           <TableBody>
-                            <TableCell> Primitive Datatype </TableCell>
-                            <TableCell> Simple datatypes used in programming languages to proform operations </TableCell>
+                            <TableCell> Functional Routing </TableCell>
+                            <TableCell> A set path to route a website after an action is proformed </TableCell>
                           </TableBody>
                           <TableBody>
-                            <TableCell> Properties </TableCell>
-                            <TableCell> The characteristics of a function or object. </TableCell>
-                          </TableBody>
-                          <TableBody>
-                            <TableCell> Array </TableCell>
-                            <TableCell> Holds multiple variables in one object.  </TableCell>
+                            <TableCell> Webpage Overflow </TableCell>
+                            <TableCell> When the webpage become to large to be fully displayed on a monitor. </TableCell>
                           </TableBody>
                         </Table>
                       </TableContainer>
@@ -215,24 +218,20 @@ function EOLPage() {
                             </TableRow>
                           </TableHead>
                           <TableBody>
-                            <TableCell> Operator </TableCell>
-                            <TableCell> Can be used to apply arithmitic operations on numbers </TableCell>
+                            <TableCell> JSS </TableCell>
+                            <TableCell> Inline javascript based style sheet </TableCell>
                           </TableBody>
                           <TableBody>
-                            <TableCell> Variable </TableCell>
-                            <TableCell> Used to hold a data type that can be changed </TableCell>
+                            <TableCell> State </TableCell>
+                            <TableCell> A true or false value tied to an external function </TableCell>
                           </TableBody>
                           <TableBody>
-                            <TableCell> Constant </TableCell>
-                            <TableCell> Used to hold a data type that cannot be changed </TableCell>
+                            <TableCell> Prop </TableCell>
+                            <TableCell> A propertie assigned to an expernal component or funciton </TableCell>
                           </TableBody>
                           <TableBody>
-                            <TableCell> Exeption </TableCell>
-                            <TableCell> An event during runtime that causes an error, or problem </TableCell>
-                          </TableBody>
-                          <TableBody>
-                            <TableCell> Runtime </TableCell>
-                            <TableCell> The time during which your code is running </TableCell>
+                            <TableCell> Routing </TableCell>
+                            <TableCell> Changes what is displayed by the DOM based on website link </TableCell>
                           </TableBody>
                         </Table>
                       </TableContainer>
